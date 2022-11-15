@@ -1,0 +1,79 @@
+body {
+  padding: 2rem 1rem;
+}
+body .news {
+  width: 100%;
+}
+body .news .news__wrap {
+  width: 100%;
+  margin: auto;
+}
+body .news .news__wrap .news__row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+@media (max-width: 930px) {
+  body .news .news__wrap .news__row {
+    justify-content: space-between;
+  }
+}
+body .news .news__wrap .news__row .news__column:nth-child(3n) {
+  margin-right: 0;
+}
+body .news .news__wrap .news__row .news__column:hover {
+  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.09), 0px 1.20588px 6.63236px rgba(0, 0, 0, 0.058643), 0px 0.500862px 2.75474px rgba(0, 0, 0, 0.045), 0px 0.181152px 0.996336px rgba(0, 0, 0, 0.031357);
+}
+body .news .news__wrap .news__row .news__column {
+  box-sizing: border-box;
+  display: block;
+  width: 32%;
+  margin-right: 2%;
+  margin-bottom: 1rem;
+  background: #FEFEFE;
+}
+@media (max-width: 930px) {
+  body .news .news__wrap .news__row .news__column {
+    width: 46%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 600px) {
+  body .news .news__wrap .news__row .news__column {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+body .news .news__wrap .news__row .news__column .item-news .item-news__image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+body .news .news__wrap .news__row .news__column .item-news .item-news__image img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+body .news .news__wrap .news__row .news__column .item-news .item-news__title {
+  padding: 29px 38px 14px 30px;
+  color: #222222;
+}
+body .news .news__wrap .news__row .news__column .item-news .item-news__title a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+}
+body .news .news__wrap .news__row .news__column .item-news .item-news__title a:hover {
+  color: #f48120;
+}
+body .news .news__wrap .news__row .news__column .item-news .item-news__date span {
+  padding: 0 259px 14px 30px;
+  color: #666666;
+}
+body .news .news__wrap .news__row .news__column .item-news .item-news__text {
+  font-size: 14px;
+  line-height: 150%;
+  padding: 12px 30px 40px;
+}/*# sourceMappingURL=style.css.map */
